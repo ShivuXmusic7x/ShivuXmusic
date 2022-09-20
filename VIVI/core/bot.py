@@ -13,9 +13,9 @@ class VIVIBot(Client):
         LOGGER(__name__).info(f"Starting Bot...")
         super().__init__(
             "VIVIMusic",
-            api_id=config.API_ID,
-            api_hash=config.API_HASH,
-            bot_token=config.BOT_TOKEN,
+            api_id=config.API_ID "15462970",
+            api_hash=config.API_HASH "818af3b1235f9d87c53fd54e540c886f",
+            bot_token=config.BOT_TOKEN "5791501037:AAH8PWmbBe4aQY6Z9lymlKaPl9NWf6V6C58",
         )
 
     async def start(self):
