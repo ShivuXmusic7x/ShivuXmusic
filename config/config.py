@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "15462970")
 API_HASH = getenv("API_HASH" "818af3b1235f9d87c53fd54e540c886f")
 
-BOT_TOKEN = getenv("BOT_TOKEN""5791501037:AAH8PWmbBe4aQY6Z9lymlKaPl9NWf6V6C58")
+BOT_TOKEN = getenv("BOT_TOKEN""5791501037:AAF1ph5TMIx5GI3D-0C0jGP9iNnou4hsMw0")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ziddiboy1762:ziddiboy1762@cluster0.yhk3i4m.mongodb.net/?retryWrites=true&w=majority")
 
@@ -55,7 +55,7 @@ AUTO_LEAVE_ASSISTANT_TIME = int(
 
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
 
-PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
+PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", )
 
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQAt3LQKbRFnGc_cX7ivU1Mgfaavdhq7P5DSrldLfwUUOEdoc8o2lToxuG-X-n66c_zSXxkhtJNCACnhC2sCf4zNDURSvqaDXs4aBDWT_qRwo_lUb0VspLcxZyv922a1rZk4dhXqjxZ38qwFlKygJErU3WFfCAKs4uk1W86mzklqqDErCq5kQXYD70wlyIwxtt5ZoXnGsMQejaWq17a-gcUEmiYS9dShWomqrCrxwlhiFvBstOlhKCG8bkFTXroEAK5oMCvjA2hWNSXcqAFVVD-gyjz4U42XzOoKmcu9cB4I4Nw-nejLCQsZkHVAPAhUTi7wkl7hAdf8JoygK3L8tqaYAAAAAVitN1wA")
+STRING1 = getenv("STRING_SESSION", "BQBO7A82u3KMlCK4TmfPknTxNe7FOX0Sx3xqLMnl1tWgdD2XqWMWeJMgKlRf-ViwJ_kja02MJqY4d-ZuTggFMuTkiClPxUwlCrH0ssobCYwuWp2mP23A5_Xb19oga_3jgaz6RrnHEzmYUS34vUSlSZJM_2SFUIn1Zor9lZ99uL3zZLzwJqrd5dcHuWHYzN-i2eUY6gEtGIet_j8cr04N5i5die07JyQv4rN-taxu1nFMy8BjRCbyqclW48T1bQdlTBGalVwTRxkEhfwnAnlrZ1ysxyIEYBr7k9_y6RzcQGA3OJ1Y0Jhk0hPkf_S_E3lIzE1HLhuqFUtp_UcV5f7riV-tAAAAAVitN1wA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
